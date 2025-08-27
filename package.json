@@ -1,0 +1,30 @@
+{
+  "name": "mpc-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@prisma/client": "latest",
+    "tailwindcss": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "cookie": "latest",
+    "jsonwebtoken": "latest",
+    "clsx": "latest"
+  },
+  "devDependencies": {
+    "prisma": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
+}
